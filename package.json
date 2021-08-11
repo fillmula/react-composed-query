@@ -5,23 +5,26 @@
     "types": "lib/index.d.ts",
     "main": "lib/index.js",
     "scripts": {
-      "prepublish": "npx tsc"
+        "prepublish": "npx tsc"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fillmula/react-composed-query.git"
+        "type": "git",
+        "url": "git+https://github.com/fillmula/react-composed-query.git"
     },
     "author": "Victor Teo, Fillmula Inc.",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/fillmula/react-composed-query/issues"
+        "url": "https://github.com/fillmula/react-composed-query/issues"
     },
     "homepage": "https://github.com/fillmula/react-composed-query#readme",
     "peerDependencies": {
-      "react": "^17.0.2"
+        "react": "^17.0.2"
     },
     "devDependencies": {
-      "@types/react": "^17.0.15",
-      "typescript": "^4.3.5"
+        "@types/react": "^17.0.15",
+        "typescript": "^4.3.5"
+    },
+    "dependencies": {
+        "axios": "^0.21.1"
     }
-  }
+}
